@@ -35,6 +35,7 @@ easyButton.addEventListener("click", function() {
             square[i].style.display = "none";
         }
     }
+    h1.style.background = "steelblue";
 })
 
 var hardButton = document.querySelector("#hardBtn");
@@ -49,6 +50,7 @@ hardButton.addEventListener("click", function() {
             square[i].style.backgroundColor = colors[i];
             square[i].style.display = "block";
     }
+    h1.style.background = "steelblue";
 })
 
 colorDisplay.textContent = pickedColor;
